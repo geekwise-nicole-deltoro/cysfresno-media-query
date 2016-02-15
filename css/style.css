@@ -12,16 +12,20 @@ header{
     width: 100%;
     height: 115px;
     overflow: hidden;
-    background-color: #728ba8;
+    background-color: coral;
+    display: block;
+    box-sizing: border-box;
 }
 
 nav{
     margin-left: auto;
-    width: 80%;
+    width: 100%;
     display: inline-block;
     background-color: pink;
     text-align: center;
-    float: none;
+    display: block;
+    box-sizing: border-box;
+
 }
 
 li{
@@ -34,29 +38,56 @@ li{
 main{
     margin: 0 auto;
     padding: 0;
-    width: 80%;
-    height:1000px;
-    background-color:blue;
-    display: block;
+    width: 100%;
+    height:100px;
+    background-color:lightblue;
     box-sizing: border-box;
 }
 
-#image{
-    margin: 0 auto;
+#box1{
+    margin: 0;
     padding: 0;
-    text-align: center;
-    width: 100%;
-    height: 300px;
+    width: calc(100%;
+    height: auto;
+    float: left;
+    display: block;
+    background-color: red;
+    box-sizing: border-box;
+    
 }
 
-#content1{
+#box2{
+    margin: 2%;
+    padding: 0;
+    width: calc(100/3);
+    height: auto;
+    float:left;
+    display: block;
+    background-color:firebrick;
+    box-sizing: border-box;
+    
+}
+
+#box3{
+    margin: 2%;
+    padding: 10%;
+    width: calc(100/3);
+    height: auto;
+    float: left;
+    display: block; 
+    background-color: lightblue;
+    box-sizing: border-box;
+    
+}
+
+#content{
     margin: 0;
     padding: 0;
     width: calc(100%/3);
-    height:200px;
-    float: left;
-    background-color: antiquewhite;
+    height: 100px;
+    background-color: goldenrod;
     display: block;
+    float: left;
     box-sizing: border-box;
     
 
@@ -65,55 +96,23 @@ main{
 #content2{
     margin: 0;
     padding: 0;
-    width:calc(100%/3);
-    height: 200px;
-    float: left;
+    width: calc(100%/3);
+    height: 100px;
     background-color: olivedrab;
-     display: block;
+    display: block;
+    float: left;
     box-sizing: border-box;
 }
+
 
 #content3{
     margin: 0;
     padding: 0;
     width: calc(100%/3);
-    height: 200px;
-    float: right;
+    height: 100px;
     background-color: fuchsia;
     display: block;
-    box-sizing: border-box;
-    
-}
-
-#box1{
-    margin: 0;
-    padding: 0;
-    width: calc(100%/3);
-    height: 500px;
-    float: left;
-    background-color:azure;
-    box-sizing: border-box;
-    
-}
-
-#box2{
-    margin: 0;
-    padding: 0;
-    width: calc(100%/3);
-    height: 200px;
-    float: none;
-    background-color:azure;
-    box-sizing: border-box;
-    
-}
-
-#box3{
-    margin: 0;
-    padding: 0;
-    width: calc(100%/3);
-    height: 500px;
-    float: right;
-    background-color:azure;
+    float: right; 
     box-sizing: border-box;
     
 }
@@ -122,9 +121,9 @@ footer{
     margin: auto 0;
     padding: 0;
     width: 100%;
-    height: 30px;
+    height: 50px;
     box-sizing: border-box;
     background-color: aquamarine;
-    
+    display: inline-block; 
     
 }
