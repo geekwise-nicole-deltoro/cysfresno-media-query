@@ -1,2 +1,2 @@
-# cysfresno021516
-team project #mediaquery-cysfresno
+# cysfresno-media query
+mediaquery-cysfresno
